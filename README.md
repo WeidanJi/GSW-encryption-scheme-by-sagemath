@@ -1,10 +1,10 @@
 # Ring-GSW
 
-This is an implemention of ring GSW cryptosystem. 
+This is an implemention of ring GSW cryptosystem. Cite the paper: "Bootstrapping Fully Homomorphic Encryption with Ring Plaintexts Within Polynomial Noise".
 
 ## KeyGen
 
-p<<q
+p<<q, such as p = 3, q = 2**20
 
 The plaintext is a ring element over R_p.
 
@@ -20,4 +20,4 @@ The decryption is m = <t, C_k>_q mod p.
 
 The correctness is ||eR||<q/2, (m+peR) mod p = m. 
 
-cite the paper: "Bootstrapping Fully Homomorphic Encryption with Ring Plaintexts Within Polynomial Noise".
+
