@@ -20,4 +20,4 @@ The decryption is m = <t, C_k>_q mod p.
 
 The correctness is ||eR||<q/2, (m+peR) mod p = m. 
 
-cite{Bootstrapping Fully Homomorphic Encryption with Ring Plaintexts Within Polynomial Noise}
+cite the paper: "Bootstrapping Fully Homomorphic Encryption with Ring Plaintexts Within Polynomial Noise".
