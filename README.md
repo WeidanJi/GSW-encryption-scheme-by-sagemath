@@ -1,6 +1,6 @@
 # Ring-GSW
 
-This is an implemention of ring GSW cryptosystem. Cite the paper: "Bootstrapping Fully Homomorphic Encryption with Ring Plaintexts Within Polynomial Noise".
+This is an implemention of ring GSW cryptosystem. 
 
 ## KeyGen
 
@@ -20,4 +20,12 @@ The decryption is m = <t, C_k>_q mod p.
 
 The correctness is ||eR||<q/2, (m+peR) mod p = m. 
 
+# Refer
 
+Code: https://github.com/hedglinnolan/GSW-Homomorphic-Encryption-Python
+
+The plaintext is an integer over Z_q
+
+Paper: 
+
+Bootstrapping Fully Homomorphic Encryption with Ring Plaintexts Within Polynomial Noise
